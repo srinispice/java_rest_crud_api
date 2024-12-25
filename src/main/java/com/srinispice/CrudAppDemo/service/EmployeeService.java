@@ -1,10 +1,10 @@
-package com.srinispice.CrudAppDemo.dao;
+package com.srinispice.CrudAppDemo.service;
 
 import com.srinispice.CrudAppDemo.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDao {
+public interface EmployeeService {
 
     List<Employee> findAll();
 
